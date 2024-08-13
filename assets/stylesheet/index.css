@@ -174,3 +174,67 @@ body {
     -ms-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
 }
+
+
+
+
+
+.topic {
+    font-size: 4.1vw;
+}
+
+.content {
+    font-size: 3.9vw;
+}
+
+.projectCard {
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.3);
+    background: #6ea8fe;
+}
+
+/*------------------------------------Media quaries-----------------------------------------------------*/
+
+@media all and (min-width: 426px) and (max-width: 576px) {
+    .topic {
+        font-size: 3.8vw;
+    }
+    .content {
+        font-size: 3.5vw; !important;
+    }
+}
+
+@media all and (min-width: 576px) and (max-width: 768px) {
+    .topic {
+        font-size: 3.1vw;
+    }
+    .content {
+        font-size: 2.8vw; !important;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .topic {
+        font-size: 2.6vw;
+    }
+    .content {
+        font-size: 2.2vw; !important;
+    }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1440px) {
+    .topic {
+        font-size: 1.7vw;
+    }
+    .content {
+        font-size: 1.5vw; !important;
+    }
+}
+
+@media all and (min-width: 1440px) and (max-width: 2560px) {
+    .topic {
+        font-size: 1.5vw;
+    }
+    .content {
+        font-size: 1.4vw; !important;
+    }
+}
